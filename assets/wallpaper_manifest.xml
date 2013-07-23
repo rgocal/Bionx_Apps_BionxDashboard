@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wallpapers>
+
+    <!--
+         Categories accept:
+        id="<string>" unique id string
+        name="<string>" visual name
+        
+        Wallpapers accept:
+        url="<url of wallpaper>"
+        thumbUrl="<url of thumbnail>"
+        author="<author>" may be used for filtering later
+        date="<date added>" may be used for filtering later
+        name="<wallpaper name">
+    -->
+
+    <category name="Bionx Catalyst" >
+
+        <wallpaper
+            name="The Catalyst"
+            author="Biotic"
+            url="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/wallpaper_1.jpg"
+            thumbUrl="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/wallpaper_1.jpg" />
+
+        <wallpaper
+            name="Bionx"
+            author="Biotic"
+            url="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/wallpaper_2.jpg"
+            thumbUrl="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/wallpaper_2.jpg" />
+
+        <wallpaper
+            name="Catalyst Aura"
+            author="Biotic"
+            url="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/wallpaper_3.jpg" 
+            thumbUrl="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/wallpaper_3.jpg" />
+
+        <wallpaper
+            author="Motorola/Biotic"
+            name="Droid Chamber"
+            url="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/wallpaper_4.jpg"
+            thumbUrl="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/wallpaper_4.jpg" />
+
+        <wallpaper
+            author="Biotic/HTC"
+            name="DNA Energy"
+            url="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/wallpaper_5.jpg"
+            thumbUrl="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/wallpaper_5.jpg" />
+
+        <wallpaper
+            author="Biotic"
+            name="Droid Bionx"
+            url="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/wallpaper_6.jpg"
+            thumbUrl="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/wallpaper_6.jpg" />
+
+        <wallpaper
+            author="HTC"
+            name="DNA Eye"
+            url="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/wallpaper_7.jpg"
+            thumbUrl="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/wallpaper_7.jpg" />
+
+        <wallpaper
+            author="Motorola"
+            name="Droid Eye"
+            url="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/wallpaper_8.jpg"
+            thumbUrl="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/wallpaper_8.jpg" />
+
+        <wallpaper
+            author="Biotic"
+            name="Bionx Eye"
+            url="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/wallpaper_9.jpg"
+            thumbUrl="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/wallpaper_9.jpg" />
+
+        <wallpaper
+            author="Biotic"
+            name="Nx Eye"
+            url="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/wallpaper_10.jpg"
+            thumbUrl="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/wallpaper_10.jpg" />
+
+        <wallpaper
+            author="Biotic"
+            name="Lake Erie"
+            url="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/wallpaper_11.jpg"
+            thumbUrl="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/wallpaper_11.jpg" />
+
+        <wallpaper
+            author="HTC"
+            name="Sense 5 Wall1"
+            url="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/wallpaper_12.jpg"
+            thumbUrl="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/wallpaper_12.jpg" />
+
+        <wallpaper
+            author="Miui"
+            name="Miui Wall"
+            url="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/wallpaper_13.jpg"
+            thumbUrl="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/wallpaper_13.jpg" />
+
+        <wallpaper
+            author="Miui"
+            name="Key Lime Pie"
+            url="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/wallpaper_14.jpg"
+            thumbUrl="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/wallpaper_14.jpg" />
+
+        <wallpaper
+            author="Miui"
+            name="Creatures"
+            url="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/wallpaper_15.jpg"
+            thumbUrl="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/wallpaper_15.jpg" />
+	    
+	    <wallpaper
+            author="Miui"
+            name="Brothers"
+            url="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/wallpaper_16.jpg"
+	        thumbUrl="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/wallpaper_16.jpg" />
+	    
+	    <wallpaper
+            author="HTC"
+            name="Sense 5 Wall2"
+            url="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/wallpaper_17.jpg"
+            thumbUrl="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/wallpaper_17.jpg" />
+	    
+	    <wallpaper
+            author="Sony"
+            name="Xperia z"
+            url="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/wallpaper_18.jpg"
+            thumbUrl="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/wallpaper_18.jpg" />
+	    
+	    <wallpaper
+            author="Miui"
+            name="Holo Rose"
+            url="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/wallpaper_19.jpg"
+            thumbUrl="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/wallpaper_19.jpg" />
+	    
+	    <wallpaper
+            author="Miui"
+            name="Holo Rose Mature"
+            url="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/wallpaper_20.jpg"
+            thumbUrl="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/wallpaper_20.jpg" />
+    </category>
+    
+    <category name="Requiem" >
+        
+        <wallpaper
+            author="Biotic"
+            name="Requiem"
+            url="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/R_1.png"
+            thumbUrl="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/R_1.png" />
+        
+        <wallpaper
+            author="Biotic"
+            name="Intelligent Bond"
+            url="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/R_2.png"
+            thumbUrl="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/R_2.png" />
+        
+        <wallpaper
+            author="Biotic"
+            name="Requiem Bond"
+            url="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/R_3.png"
+            thumbUrl="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/R_3.png" />
+        
+        <wallpaper
+            author="Biotic"
+            name="Bond1"
+            url="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/R_4.png"
+            thumbUrl="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/R_4.png" />
+        
+        <wallpaper
+            author="Biotic"
+            name="Bond2"
+            url="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/R_5.png"
+            thumbUrl="https://raw.github.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/R_5.png" />
+    </category>
+
+</wallpapers>
