@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Memory Tweaks">
+    <PreferenceScreen
+        android:title="Data Storage Options"
+        android:summary="Storage, App &amp; Dalvik-Cache Options">
+
+    <PreferenceCategory
+        android:title="Storage Sizes (Free / Total)">
+     
+        <PreferenceScreen android:key="system_storage_levels"
+                android:title="/system"
+                android:summary=" Unavailable">
+        </PreferenceScreen>
+
+        <PreferenceScreen android:key="data_storage_levels"
+                android:title="/data"
+                android:summary=" Unavailable">
+        </PreferenceScreen>
+
+        <PreferenceScreen android:key="cache_storage_levels"
+                android:title="/cache"
+                android:summary=" Unavailable">
+        </PreferenceScreen>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="User App / Dalvik-Cache Options">
+
+        <CheckBoxPreference
+            android:key="apps2sd_opt"
+            android:title="Apps2SD"
+            android:summaryOn="Apps2SD Enabled"
+            android:summaryOff="Apps2SD Disabled"/>
+
+        <CheckBoxPreference
+            android:key="dccache_opt"
+            android:title="Dalvik-Cache on /cache"
+            android:summaryOn="Dalvik-Cache on /cache Enabled"
+            android:summaryOff="Dalvik-Cache on /cache Disabled"/>
+
+        <CheckBoxPreference
+            android:key="dcsdcard_opt"
+            android:title="Dalvik-Cache on SDCard"
+            android:summaryOn="Dalvik-Cache on SDCard Enabled"
+            android:summaryOff="Dalvik-Cache on SDCard Disabled"/>
+
+    </PreferenceCategory>
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:title="Orientation Settings"
+        android:summary="Control Orientation/Rotation operations">
+
+        <CheckBoxPreference
+            android:key="270_rotation_opt"
+            android:title="270 Degree Sensor"
+            android:summaryOn="270 degree (Rotate-Right) rotation is enabled"
+            android:summaryOff="270 degree (Rotate-Right) rotation is disabled"
+            android:defaultValue="false"/>
+
+        <CheckBoxPreference
+            android:key="180_rotation_opt"
+            android:title="180 Degree Sensor"
+            android:summaryOn="180 degree (UpsideDown) rotation is enabled"
+            android:summaryOff="180 degree (UpsideDown) rotation is disabled"
+            android:defaultValue="false"/>
+
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:title="Memory/SWAP Settings"
+        android:summary="Control Memory &amp; SWAP options">
+
+        <CheckBoxPreference
+            android:key="compcache_opt"
+            android:title="Use Compcache"
+            android:summaryOn="Compcache is enabled"
+            android:summaryOff="Compcache is disabled"
+            android:defaultValue="false"/>
+
+        <CheckBoxPreference
+            android:key="linuxswap_opt"
+            android:title="Use LinuxSWAP"
+            android:summaryOn="LinuxSWAP is enabled"
+            android:summaryOff="LinuxSWAP is disabled"
+            android:defaultValue="false"/>
+
+        <ListPreference
+                android:key="swappiness_opt"
+                android:title="Swappiness"
+                android:summary="Set the paging swappiness"
+                android:entries="@array/swappiness_values"
+                android:entryValues="@array/swappiness_values"
+                android:dialogTitle="Select Swappiness"
+                android:defaultValue="60"/>
+    </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Developer Tools">
+        <PreferenceScreen android:title="Battery Calibrator" 
+            android:summary="Optimize your devices battery">
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.bionx.res.activity.BatteryCalibrationActivity"
+                android:targetPackage="com.bionx.res" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="Android ID Tool" 
+            android:summary="View ADB ID">
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.bionx.res.activity.AndroidIDToolActivity"
+                android:targetPackage="com.bionx.res" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+</PreferenceScreen>

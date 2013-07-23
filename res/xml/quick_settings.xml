@@ -1,0 +1,76 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Quick Settings" >
+        
+        <CheckBoxPreference
+        android:id="@+id/isSplashEnabled"
+        android:defaultValue="true"
+        android:key="isSplashEnabled"
+        android:summary="Select to enable the splash screen on application startup. Disabling may lead to lag start up."
+        android:title="Splash screen enabled" />
+        
+    	<PreferenceScreen
+            android:icon="@drawable/ic_wifi"
+            android:title="Quick Wifi" >
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.android.settings.wifi.WifiSettings"
+                android:targetPackage="com.android.settings" />
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:icon="@drawable/ic_bluetooth"
+            android:title="Quick Bluetooth" >
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.android.settings.bluetooth.BluetoothSettings"
+                android:targetPackage="com.android.settings" />
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:icon="@drawable/ic_hotspot"
+            android:title="Quick Hotspot" >
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.android.settings.TetherSettings"
+                android:targetPackage="com.android.settings" />
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:icon="@drawable/ic_audio"
+            android:title="Quick Sound" >
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.android.settings.SoundSettings"
+                android:targetPackage="com.android.settings" />
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:icon="@drawable/ic_display"
+            android:title="Quick Display" >
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.android.settings.DisplaySettings"
+                android:targetPackage="com.android.settings" />
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:icon="@drawable/ic_files"
+            android:title="Quick Applications" >
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.android.settings.applications.ManageApplications"
+                android:targetPackage="com.android.settings" />
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:icon="@drawable/ic_spare"
+            android:title="Quick Development" >
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.android.settings.DevelopmentSettings"
+                android:targetPackage="com.android.settings" />
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:icon="@drawable/ic_power"
+            android:title="Quick Battery" >
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.android.settings.fuelgauge.PowerUsageSummary"
+                android:targetPackage="com.android.settings" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+</PreferenceScreen>

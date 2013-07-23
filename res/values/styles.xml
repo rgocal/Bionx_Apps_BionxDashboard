@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="BaseText" parent="@android:style/TextAppearance">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:gravity">center_vertical</item>
+	</style>
+	<style name="BaseSpinner">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+	<style name="BaseText.Small" parent="BaseText">
+		<item name="android:textSize">12dip</item>
+	</style>
+	<style name="BaseText.About" parent="BaseText">
+		<item name="android:textSize">14dip</item>
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:paddingTop">12dip</item>
+		<item name="android:textColorLink">@android:color/secondary_text_dark</item>
+	</style>
+	<style name="BaseText.FAQ_Q" parent="BaseText.About">
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:paddingTop">12dip</item>
+		<item name="android:textStyle">bold</item>
+	</style>
+	<style name="BaseText.FAQ_A" parent="BaseText.About">
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:paddingTop">12dip</item>
+	</style>
+	<style name="infoHeader">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">3dp</item>
+        <item name="android:background">#222222</item>
+    </style>
+        <style name="HoloBackgroundTheme" parent="@android:style/Theme.Holo">
+        <item name="android:windowBackground">@drawable/semc_bg</item>
+        <item name="android:listViewStyle">@style/Settings.Widget.ListView</item>
+        <item name="android:listViewWhiteStyle">@style/Settings.Widget.ListView.White</item>
+    </style>
+        <style name="HoloNoActionBarBackgroundTheme" parent="@android:style/Theme.Holo.NoActionBar">
+        <item name="android:windowBackground">@drawable/semc_bg</item>
+        <item name="android:listViewStyle">@style/Settings.Widget.ListView</item>
+        <item name="android:listViewWhiteStyle">@style/Settings.Widget.ListView.White</item>
+    </style>
+    <style name="Settings.Widget.ListView" parent="@android:style/Widget.Holo.ListView">
+        <item name="android:cacheColorHint">#00000000</item>
+    </style>
+    <style name="Settings.Widget.ListView.White" parent="@android:style/Widget.ListView.White">
+        <item name="android:cacheColorHint">#00000000</item>
+    </style>
+</resources>

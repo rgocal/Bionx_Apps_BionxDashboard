@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+    <header 
+        android:summary="Catalyst Exclusive" />
+        <header
+            android:fragment="com.bionx.res.catalyst.Changelog"
+            android:icon="@drawable/ic_changelog"
+            android:title="Firmware Changelog"
+            android:summary="View the latest changes in Catalyst" />
+        <header
+            android:fragment="com.bionx.res.catalyst.InitD"
+            android:icon="@drawable/ic_initd"
+            android:title="Init.D Toggles"
+            android:summary="Optimize android system startup" />
+        <header
+            android:icon="@drawable/ic_downloads"
+            android:title="Dtrails's Kitchen" 
+            android:summary="Soup of the day is..." >
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.bionx.res.catalyst.KexecMenu"
+                android:targetPackage="com.bionx.res" />
+        </header>
+        <header
+            android:icon="@drawable/ic_downloads"
+            android:title="System Update" 
+            android:summary="Check for any new Updates or Patches available for Catalyst" >
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.otaupdater.OTAUpdaterActivity"
+                android:targetPackage="com.otaupdater" />
+        </header>
+    <header 
+        android:summary="Catalyst Accessories" />
+        <header
+            android:icon="@drawable/ic_audio"
+            android:summary="Home settings and configurations"
+            android:title="Xperia Home" >
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.ra3al.xperia.home.preferences.Preferences"
+                android:targetPackage="com.ra3al.launcher" />
+        </header>
+        <header
+            android:icon="@drawable/ic_security"
+            android:summary="Manage Super User app permissions"
+            android:title="Super SU" >
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="eu.chainfire.supersu.MainActivity"
+                android:targetPackage="eu.chainfire.supersu" />
+        </header>
+        <header
+            android:icon="@drawable/ic_manage"
+            android:summary="Manage android launchers installed"
+            android:title="Android Home(s)" >
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.lge.homeselector.HomeSelectorActivity"
+                android:targetPackage="com.lge.homeselector" />
+        </header>
+</preference-headers>

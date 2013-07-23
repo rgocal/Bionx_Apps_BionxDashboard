@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- DashboardActivity -->
+  <string name="tab1">Bionx</string>
+  <string name="tab2">Settings</string>
+  <string name="tab3">Extras</string>
+    <string name="app_name">Bionx Dashboard</string>
+    <string name="version">Version 3.0</string>
+    <string name="splashon">SplashOn</string>
+    <string name="splashoff">SplashOff</string>
+    <string name="device_info_default">Unknown</string>
+    <string name="bucket">Unknown</string>
+    <string name="tool">Tools</string>
+    <string name="nw">New User</string>
+    <!--Build.propActivity -->
+    <string name="save">Save</string>
+    <string name="discart">Discard</string>
+    <string name="cancel">Cancel</string>
+    <string name="edit_key">Property Key</string>
+    <string name="edit_name">Property Name</string>
+    <string name="unsaved_changes_title">Unsaved Changes</string>
+    <string name="unsaved_changes_message">Would you like to set this property?</string>
+    <string name="add">Add</string>
+    <string name="backup">Backup</string>
+    <string name="restore">Restore</string>
+    <!--Files Activity -->
+    <string name="media_dialog">Media preview</string>
+    <string name="dir_info">Folder Information</string>
+    <!-- Changelog Activity -->
+    <string name="ok">OK</string>
+    <string name="changelog_full_title">Changelog</string>
+    <string name="changelog_title">What\'s New</string>
+    <string name="changelog_error">Cannot get changelog, are you running Catalyst?</string>
+    <!-- Task Activity -->
+    <string name="kill_app">Kill</string>
+    <string name="refresh_app">Refresh</string>
+    <string name="no_processes">Clean Slate</string>
+    <string name="process">Processes</string>
+    <string name="available_mem">Available Memory</string>
+    <string name="progress_title">Loading...</string>
+    <string name="progress_message">Please Wait...</string>
+    	<!-- Official Links -->
+    <string name="bionx_website">Bionx Home:bionx.webs.com</string>
+    <string name="bionx_donation">Donate to Biotic:http://goo.gl/qpb4z</string>
+    <string name="bionx_forum">Phandroid:http://goo.gl/fXwlr</string>
+    <string name="bionx_facebook">Bionx Facebook:http://goo.gl/WnxG9</string>
+    <string name="twitter">Follow Biotic Twitter:https://twitter.com/Rgocal</string>
+   		 <!-- About Device -->
+   	<string name="developer">Rom Developer: Biotic</string>
+   		 <!-- Wallpaper Picker -->
+   	<string name="applying">Applying selection now</string>
+   	<string name="action_apply">Apply</string>
+   		 <!-- CPU Activity -->   	 
+	<string name="unavailable">Unavailable</string>
+	<string name="requested">Requested</string>
+	<string name="current">Current</string>
+	<string name="max_freq">Max. clock freq.</string>
+	<string name="min_freq">Min. clock freq.</string>
+	<string name="governor">Governor</string>
+	<string name="ioscheduler">I/O scheduler</string>
+	<string name="apply_on_boot">Apply on boot</string>
+	<string name="show_notification">Show notification on boot</string>
+	<string name="apply">Apply</string>
+	<string name="exit">Exit</string>
+	<string name="send">Send</string>
+	<string name="dlg_noroot_title">Missing root permissions</string>
+	<string name="dlg_noroot_body">You must be rooted in order to use this app.</string>
+	<string name="dlg_nofs_title">Your device seems to lack frequency scaling</string>
+	<string name="dlg_nofs_body">If you are running a custom ROM or if you think
+		your phone supports frequency scaling, send your CPU data in order to
+		add support for your phone.</string>
+	<!-- MainActivity - Menu -->
+	<string name="menu_send">Send CPU data</string>
+	<string name="dlg_send_title">Send CPU data with…</string>
+	<string name="menu_prefs">Settings</string>
+	<string name="menu_view_stats">View stats</string>
+	<string name="menu_details">About</string>
+	<!-- Stats activity -->
+	<string name="spinner_stats_text">Recieving cpu activity...</string>
+	<string name="stats_title">Frequency stats</string>
+	<string name="stats_current">Current frequency: %1$s</string>
+	<string name="stats_current_unavailable">unavailable</string>
+	<string name="stats_frequency">Frequency</string>
+	<string name="stats_perc">Total</string>
+	<string name="stats_perc5">Last 5 sec.</string>
+	<string name="stats_deep_sleep">Deep sleep</string>
+	<!-- Errors -->
+	<string name="err_need_root">This app required root privileges to work.</string>
+	<string name="err_update_failed">Error: did you allow SuperUser permissions?</string>
+	<string name="err_no_email_client">You don\'t have an email client. CPU data will not
+		be sent.</string>
+	<!-- Success -->
+	<string name="ok_updated_freqs">Success!\nMin: %1$s\nMax: %2$s\nGovernor: %3$s\nI/O Scheduler: %4$s</string>
+	<!-- BootService safety valves -->
+	<string name="notify_nlj_safety_found">%1$s found, values not applied</string>
+	<string name="notify_safety_shutdown">Unclean shutdown, values not applied</string>
+	<string name="notify_title_safety">Values not applied</string>
+	<string name="notify_title_success">Values applied successfully</string>
+	<string name="notify_success">Min: %1$s\nMax: %2$s\nGovernor: %3$s\nI/O Scheduler: %4$s</string>
+	<!-- Preferences -->
+	<string name="prefs_cat_notification">Notification on boot</string>
+	<string name="prefs_show_notification">Show notification</string>
+	<string name="prefs_show_notification_summary_on">Notifications will be displayed.</string>
+	<string name="prefs_show_notification_summary_off">Notifications will NOT be displayed.</string>
+	<string name="prefs_vibrate">Vibrate</string>
+	<string name="prefs_vibrate_pattern">Vibration pattern</string>
+	<string name="prefs_vibrate_pattern_message">Type a vibration pattern expressed in milliseconds (e.g.: 0,50,100,50,100) or leave this field blank to use the default vibration pattern.</string>
+	<string name="prefs_ringtone">Notification sound</string>
+	<string name="prefs_cat_stats">Stats</string>
+	<string name="prefs_include_deep_sleep">Include deep sleep</string>
+	<string name="prefs_include_deep_sleep_summary_on">Deep sleep will be included.</string>
+	<string name="prefs_include_deep_sleep_summary_off">Deep sleep will be ignored.</string>
+	<!-- Battery calibration -->
+    <string name="calibration_prefs_key">calibration_prefs_key</string>
+    <string name="calibration_settings_title">Battery calibration</string>
+    <string name="battery_calibration_step1">1) Plug device into charger</string>
+    <string name="battery_calibration_step2">2) Allow battery to charge to 100%</string>
+    <string name="battery_calibration_step3">3) Click \'Calibrate Battery\' button</string>
+    <string name="battery_calibration_step4">4) Unplug your device</string>
+    <string name="button_calibrate_battery">Calibrate Batery</string>
+    <string name="button_override">Step 2 Overide</string>
+    <string name="battery_info_text">Battery: </string>
+    <!-- Android ID Activity -->
+    <string name="android_id_prefs_key">android_id_pref_key</string>
+    <string name="android_id_settings_title">Android ID tool</string>
+    <string name="error_copying_binary">There was an error trying to copy the sqlite3 binary.</string>
+    <string name="dialog_root_required_title">Root Required</string>
+    <string name="dialog_root_required_body">Root permissions are required in order for this app to perform it\'s functions.  Root permissions were not granted or root is not possible on this device.</string>
+    <string name="dialog_update_id_failure_title">Update failure</string>
+    <string name="dialog_update_id_failure_body">Unfortunately the updating of the ID was not successful. Please contact the developer.</string>
+    <string name="id_backup_exists">No backup exists</string>
+    <string name="android_id_title">Current ID</string>
+    <string name="android_backup_id_title">Saved ID</string>
+    <string name="button_backup_id">Save current ID</string>
+    <string name="button_restore_id">Restore saved ID</string>
+    <string name="media_scanner_prefs_key">media_scanner_pref_key</string>
+    <string name="media_scanner_settings_title">Invoke media scanner</string>
+    <string name="logcat_prefs_key">logcat_pref_key</string>
+    <string name="logcat_settings_title">Logcat tool</string>
+    <!--Changelog Startup Activity -->
+    <string name="your_changelog_text"> Bionx Dashboard V3.2</string>
+    <!--Changelog Startup Activity -->
+    <string name="config_wallpaper_download_loc">Wallpaper Downloads</string>
+    <string name="config_wallpaper_sdcard_dl_location">SDcard Wallpaper Downloads</string>
+    <string name="config_wallpaper_manifest_url">Manifest Configurations</string>
+    <string name="page">Page</string>
+    
+    <!-- Start up tweaks -->
+	<string name="pt_init_d">Start-up Tweaks</string>
+	<string name="pt_enable_init_d">Enable start-up tweaks</string>
+	<string name="pt_zipalign">Zipalign apks</string>
+	<string name="pt_enable_sd_boost">Enable SD boost</string>
+	<string name="pt_sd_boost">Read ahead value</string>
+	<string name="pt_fix_permissions">Fix permissions</string>
+	<string name="pt_clear_cache">Clear cache</string>
+	<string name="pt_cache">Dalvik2Cache</string>
+	<string name="pt_ram">RAM Script</string>
+	<string name="pt_rgdn">Seeder</string>
+	<string name="pt_sqlite">SQLITE</string>
+	<string name="pt_tether">Tethering</string>
+	
+	<!-- Catalyst Tweaks -->
+	<string name="navbar_changer"> Navigation Bar Tweaked</string>
+	<string name="ps_init_d">Configure tweaks that are run at boot
+		(init.d)
+	</string>
+	<string name="ps_enable_init_d">Enable/disabe start-up tweaks</string>
+	<string name="ps_zipalign">Zipalign any unaligned apps on each boot</string>
+	<string name="ps_enable_sd_boost">Enable/disable SD card speed boost</string>
+	<string name="ps_sd_boost">Set value of read ahead in kb</string>
+	<string name="ps_fix_permissions">Fix permissions for apps on each boot</string>
+	<string name="ps_clear_cache">Clear data cache on each boot</string>
+	<string name="ps_cache">Populate dalvik in cache</string>
+	<string name="ps_ram">Free more ram at boot</string>
+	<string name="ps_rgdn">Enable automatic rgdn services</string>
+	<string name="ps_sqlite">Enable silent sqlite services</string>
+	<string name="ps_tether">Hack hotspot for free services regarding those who are on a family shared plan</string>
+	<!-- Appirater -->
+	<string name="rate_title">Rate %s</string>
+    <string name="rate_message">Enjoy using, %s on your device? Take the time to rate Bionx to help improve everyones experience!</string>
+    <string name="rate">+1 %s</string>
+    <string name="rate_later">Remind me later</string>
+    <string name="rate_cancel">Everythings running fine!</string>
+</resources>

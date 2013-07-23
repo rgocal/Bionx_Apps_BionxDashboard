@@ -1,0 +1,5 @@
+
+    <menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:id="@+id/backup" android:title="Backup Apps" android:showAsAction="always"></item>
+        <item android:id="@+id/quit" android:icon="@drawable/logout" android:title="Quit" android:showAsAction="always"></item>
+    </menu>

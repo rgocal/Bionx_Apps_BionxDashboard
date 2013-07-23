@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+	<header android:summary="Bionx System" />
+        <header
+            android:icon="@drawable/ic_spare"
+            android:summary="Tools, Tweaks, and Misc System Settings"
+            android:title="Bionx Parts" >
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.bionx.res.activity.Commands"
+                android:targetPackage="com.bionx.res" />
+        </header>
+        <header
+            android:icon="@drawable/ic_spare"
+            android:summary="Tweak the zRAM"
+            android:title="Bionx VMM" >
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.bionx.res.activity.ZRAMconfigActivity"
+                android:targetPackage="com.bionx.res" />
+            </header>
+        <header
+            android:icon="@drawable/ic_prop"
+            android:summary="Light weight Build.prop editor"
+            android:title="Prop Editor" >
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.bionx.res.activity.BuildPropEditor"
+                android:targetPackage="com.bionx.res" />
+        </header>
+        <header
+            android:icon="@drawable/ic_batch"
+            android:summary="Kill unwanted processes"
+            android:title="Tasker" >
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.bionx.res.activity.ProcessList"
+                android:targetPackage="com.bionx.res" />
+        </header>
+        <header 
+            android:icon="@drawable/ic_files"
+            android:summary="View files accordingly in /sdcard /sdcard-ext and /system"
+            android:title="Nx Files" >
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.bionx.res.activity.Files"
+                android:targetPackage="com.bionx.res" />
+            </header>
+        <header 
+            android:title="Nx Application Backup" 
+            android:summary="Backup your downloaded apps /sdcard/Bionx" 
+            android:icon="@drawable/ic_papers">
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.bionx.res.activity.ApplicationBackup"
+                android:targetPackage="com.bionx.res" />
+        </header>
+        <header 
+            android:title="Bionx Papers" 
+            android:summary="Browse the Wallpaper Manifest" 
+            android:icon="@drawable/ic_display">
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.bionx.res.wallpaper.WallpaperActivity"
+                android:targetPackage="com.bionx.res" />
+        </header>
+    <header android:summary="Android System" />
+        <header
+            android:icon="@drawable/ic_setting"
+            android:summary="Android Device Settings"
+            android:title="Android Settings" >
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.android.settings.Settings"
+                android:targetPackage="com.android.settings" />
+        </header>
+        <header 
+            android:title="Power Menu" 
+            android:summary="Reboot commands" 
+            android:icon="@drawable/ic_power">
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.bionx.res.activity.PowerMenu"
+                android:targetPackage="com.bionx.res" />
+        </header>
+</preference-headers>

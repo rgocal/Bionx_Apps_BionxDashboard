@@ -1,0 +1,9 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Kexec Kernel" >
+        
+        <CheckBoxPreference
+        android:defaultValue="true"
+        android:summary="Here's a toggle button to play with :) "
+        android:title="Currently In Development" />
+    </PreferenceCategory>
+</PreferenceScreen>

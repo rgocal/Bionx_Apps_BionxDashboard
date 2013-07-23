@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="Init.d"
+		android:key="pc_init_d">
+		<CheckBoxPreference android:key="enable_init_d"
+			android:defaultValue="true" android:title="@string/pt_enable_init_d"
+			android:summaryOn="@string/ps_enable_init_d" android:summaryOff="@string/ps_enable_init_d" />
+	</PreferenceCategory>
+	<PreferenceCategory android:title="Init.d Tweaks"
+		android:key="pc_init_d_tweaks">
+		<CheckBoxPreference android:key="zipalign"
+			android:defaultValue="true" android:title="@string/pt_zipalign"
+			android:summary="@string/ps_zipalign" android:dependency="enable_init_d"
+			android:shouldDisableView="true" />
+		<CheckBoxPreference android:key="enable_sd_boost"
+			android:defaultValue="true" android:title="@string/pt_enable_sd_boost"
+			android:summary="@string/ps_enable_sd_boost" android:dependency="enable_init_d"
+			android:shouldDisableView="true" />
+		<EditTextPreference android:key="sd_boost"
+			android:inputType="numberDecimal" android:name="@string/pt_sd_boost"
+			android:defaultValue="2048" android:title="@string/pt_sd_boost"
+			android:dependency="enable_sd_boost" android:shouldDisableView="true" />
+		<CheckBoxPreference android:key="fix_permissions"
+			android:defaultValue="false" android:title="@string/pt_fix_permissions"
+			android:summary="@string/ps_fix_permissions" android:dependency="enable_init_d"
+			android:shouldDisableView="true" />
+		<CheckBoxPreference android:key="clear_cache"
+			android:defaultValue="false" android:title="@string/pt_clear_cache"
+			android:summary="@string/ps_clear_cache" android:dependency="enable_init_d"
+			android:shouldDisableView="true" />
+		<CheckBoxPreference android:key="cache"
+			android:defaultValue="true" android:title="@string/pt_cache"
+			android:summary="@string/ps_cache" android:dependency="enable_init_d"
+			android:shouldDisableView="true" />
+		<CheckBoxPreference android:key="ram_boot"
+			android:defaultValue="true" android:title="@string/pt_ram"
+			android:summary="@string/ps_ram" android:dependency="enable_init_d"
+			android:shouldDisableView="true" />
+		<CheckBoxPreference android:key="rgdn"
+			android:defaultValue="true" android:title="@string/pt_rgdn"
+			android:summary="@string/ps_rgdn" android:dependency="enable_init_d"
+			android:shouldDisableView="true" />
+		<CheckBoxPreference android:key="sqlite"
+			android:defaultValue="true" android:title="@string/pt_sqlite"
+			android:summary="@string/ps_sqlite" android:dependency="enable_init_d"
+			android:shouldDisableView="true" />
+		<CheckBoxPreference android:key="tether"
+			android:defaultValue="true" android:title="@string/pt_tether"
+			android:summary="@string/ps_tether" android:dependency="enable_init_d"
+			android:shouldDisableView="true" />
+	</PreferenceCategory>
+</PreferenceScreen>

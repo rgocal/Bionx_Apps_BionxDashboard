@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="Memory Management"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+
+    <ListPreference
+        android:key="pref_zram_size"
+        android:dialogTitle="zRam"
+        android:title="zRAM Compression Level"
+        android:summary="Set Compression Ratio"
+        android:entries="@array/pref_zram_size_entries"
+        android:entryValues="@array/pref_zram_size_values" />
+
+    <CheckBoxPreference
+        android:key="pref_purgeable_assets"
+        android:title="Purge Asset Memory" 
+       android:summary="Purging of Bitmap memory assets allows more free memory" />
+
+    <CheckBoxPreference
+        android:key="pref_ksm"
+        android:title="Kernel Samepage Merging"
+        android:summary="KSM reduces memory requirments" />
+    
+    <PreferenceScreen
+            android:title="Advance zRam Configuration" 
+            android:summary="Set a custom ratio for zRAM compression. Forcefull Intent if the above method doesn't apply to your kernel">
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.bionx.res.activity.AdvancezRAM"
+                android:targetPackage="com.bionx.res" />
+        </PreferenceScreen>
+</PreferenceScreen>

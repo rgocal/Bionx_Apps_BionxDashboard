@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/semc_bg" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Follow Me"
+                android:id="@+id/textView"
+                android:layout_alignBottom="@+id/button1"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/holoblue"
+                android:gravity="center_horizontal"
+                android:textSize="32dp"
+                android:background="@drawable/bottom_bar"/>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="66dp"
+            android:layout_gravity="right|center_vertical">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/facebook"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+                style="@android:style/Widget.Holo.Button.Borderless"/>
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/googleplus"
+                android:layout_alignParentTop="true"
+                style="@android:style/Widget.Holo.Button.Borderless"
+                android:layout_toRightOf="@+id/button1"/>
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/twitter"
+                android:layout_alignParentTop="true"
+                style="@android:style/Widget.Holo.Button.Borderless"
+                android:layout_toRightOf="@+id/button2"/>
+
+            <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button"
+                    android:background="@drawable/donate"
+                    android:layout_alignParentTop="true"
+                    style="@android:style/Widget.Holo.Button.Borderless"
+                    android:layout_toRightOf="@+id/button3"/>
+
+        </RelativeLayout>
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="License and Development"
+                android:id="@+id/button4"
+                android:layout_gravity="center"
+                android:background="@drawable/grid"
+                android:textColor="@color/holoblue"/>
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/grid"
+            android:textColor="@color/holoblue"
+            android:text="What's New in the Dash" />
+
+        <TextView
+            style="@style/BaseText.About"
+            android:layout_width="fill_parent"
+            android:text="@string/app_name"
+            android:textSize="30dp"
+            android:background="@drawable/bottom_bar"
+            android:gravity="center_horizontal"
+            android:textColor="@color/holoblue"/>
+
+        <TextView
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Dashboard Version: 3.2"
+                android:id="@+id/textView4" />
+
+        <TextView
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="SDK Version Support: 15-17"
+                android:id="@+id/textView10" />
+
+        <TextView
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Developer: Nx Biotic"
+                android:id="@+id/textView11" />
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Engine: Bionx"
+                android:id="@+id/textView12"
+                android:layout_gravity="center"/>
+
+        <TextView
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Host: Catalyst Firmware"
+                android:id="@+id/textView8" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal"
+                android:layout_height="match_parent"
+                android:layout_weight="1.12"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="fill_parent"
+                    android:gravity="center_horizontal"
+                    android:layout_height="wrap_content"
+                    android:text="JBX-Co-Development"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+                
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="fill_parent"
+                    android:gravity="center_horizontal"
+                    android:layout_height="wrap_content"
+                    android:text="Developer: Dtrail" />
+
+                <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="fill_parent"
+                        android:gravity="center_horizontal"
+                        android:layout_height="wrap_content"
+                        android:autoLink="web"
+                        android:text="Github: https://github.com/dtrail" />
+                
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="fill_parent"
+                    android:gravity="center_horizontal"
+                    android:layout_height="wrap_content"
+                    android:autoLink="web"
+                    android:text="JBX-Donations: goo.gl/ScgjZ" />
+                
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="fill_parent"
+                    android:gravity="center_horizontal"
+                    android:layout_height="wrap_content"
+                    android:autoLink="web"
+                    android:text="JBX-Home: dtrailer.de" />
+                
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="fill_parent"
+                    android:gravity="center_horizontal"
+                    android:layout_height="wrap_content"
+                    android:text="Omap4-Kexec-Development"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+                
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="fill_parent"
+                    android:gravity="center_horizontal"
+                    android:layout_height="wrap_content"
+                    android:autoLink="web"
+                    android:text="Official Thread: goo.gl/2V51L" />
+                
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="fill_parent"
+                    android:gravity="center_horizontal"
+                    android:layout_height="wrap_content"
+                    android:autoLink="web"
+                    android:text="GitHub: goo.gl/86XwV" />
+                
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="fill_parent"
+                    android:gravity="center_horizontal"
+                    android:layout_height="wrap_content"
+                    android:autoLink="web"
+                    android:text="Kexec Wiki: goo.gl/F2bPZ" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bionx_sig" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

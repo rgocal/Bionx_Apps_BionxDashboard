@@ -1,0 +1,67 @@
+﻿Welcome to thee Bionx All In One Experience!
+Created by Ryan Gocal (Biotic)!
+BOSP All Rights Reserved 2013
+
+Bionx Engine Requirements:
+Root
+Busybox Installed
+Toolbox Installed (Optional)
+AOSP, CM, AOKP, MIUI, PAC firmwares supported
+TouchWiz, Sense, Blur, LG, Semc based firmwares may have variable results running this application
+Bionx Catalyst Rom for the Droid Razr (Optional, More options available)
+
+This toolkit has many usefull tools, scripts, software, and tips to allow your device at full potential while being rooted. This Toolkit is the heart and soul of the Bionx Catalyst rom and brings users notifications, wallpapers, tools, and updates to take full advantage of their android powered device however if you are a user who does not have the Bionx Catalyst Rom, no fears! This Toolkit easily integrates itself into any android rom whether its stock based, oem based, or custom built by any user! That was the goal of Bionx Developer Biotic since the beginning of Catalyst development! Why leave behind Bionx software followers when the rom can be brought to them! The idea of this toolkit was to unite all Bionx Followers at one place whether your using the Catalyst Rom on the Droid Razr or have an unsupported device by the Bionx Firmware. No one should be left behind!
+
+Introduction
+______________________
+The Bionx Dashboard has several different sections. The Dashboard, Quicksettings, Catalyst, Tools, and Information Center. Each of these section have different options for the users as well as the device your working with. The Catalyst Tab is specifically designed for the Bionx Catalyst rom so if your a lucky person with the Catalyt Firmware, youll have extra options and more power to yah.
+
+The Dashboard
+______________________
+The Dashboard is the mainframe to the whole application. This is were all the scripts, engines and fun stuff initialize and fuse to your android device or install I should say. The Dashboard will identify your device and show you some information about it like (make, model, memory, versions, firmware, ect), show you the current date with a calendar widget, fast access to phandroid and xda forums, direct access to the Bionx Webs headlines and web access.
+
+QuickSettings
+______________________
+This tab allows fast access to the android settings. Quick settings allow quick navigation to wifi, bluetooth, device settings, and development settings. If you need fast access to the android settings, this is your tool. Also a toggle to allow users to allow or disallow the splash screen to run at start up.
+
+Catalyst
+______________________
+This tab allows Catalyst Rom users extra hidden features in the Bionx Catalyst Rom. Toggle init.d run time scripts on startup, view changes in the rom, manage home launchers, manager super user persmissions and logs, and so on (Features will vary upon updates). Catalyst Rom users are suggested to check up on this tab on every update to make sure that your caught up on all the great features and settings Catalyst has to offer you as a user.
+
+Information Center
+______________________
+This page allows users to connect to me directly and see information about Bionx and Open Source Information. Users can easily connect to me by selecting Google Plus, Twitter, or the Bionx Facebook page for direct connection. A Donation button also floats around in the Information Center. 3 Buttons in the Action bar will direct users to this page, Direct Link to my Github and Google Play!
+
+Rom Tools
+______________________
+Rom Tools is the essential part of the Bionx Dashboard! This segment of the Dashboard gives users a good selection of tools and tweaks for their android device such as...
+Build.prop editor
+File Manager
+Memory Tweaks
+ZRam Settings
+CPU Over Clocker
+Voltage Controls
+CPU Monitoring
+Battery Calibrator
+ADB ID Identefier
+OTA Wallpaper Manifest Chooser
+Power Menu
+Android Settings Shortcut
+Bulk App Backup
+
+This section of the Dashboard is also open for discussion for users. If there is a feature you would like to see come to the Dashboard, please tell me! Also if you are a developer, This application is also available for open development on Github! Source is updated with every release on google play.
+
+The Wallpaper Manifest is managed on my Github meaning I can add as many wallpapers as I want and update Categories at any time! You can also save wallpapers to your device for future use or personal use. My treat. I suggest you use this feature on Wifi as each Wallpaper was optimized in HD so high bandwidth consumption is possible for Data Cap users.
+
+
+_____________________________________﻿
+Bionx Catalyst
+Version 3.0
+Droid Razr﻿
+Bionx for beginners!
+
+So, you rooted your Droid Razr, You installed Safestrap or Bootmenu and you installed Bionx Catalyst but your first question is...now what?? Well firstly, let me take the time to thankyou for taking the time to install Bionx on your Droid Razr! Did you know, Bionx originally was a froyo rom on the Lg Ally? Yes, Alot has changed but Bionx is still Bionx. Bionx is a rom that I came up with that has several goals. My goal is to bring Stock firmware users the ulimate experience that the OEM Manufacture decided to leave out or couldnt acomplish so in Bionx Catalyst, that goal was met. The Moto Blur experience was removed and replaced with a mixture of AOSP GUI and features along with a hybrid look and feel from Sony Xperia Devices. Why Sony? Because I own a Xperia myself and they offer the best audio experience for any user and that was a set goal in Catalyst. The Sony Walkman Player and all of its features has been integrated into Catalyst to offer users the best Multimedia experience yet on the Droid Razr. The same Sony Libs power your audio engine and photo viewing engines to allow a powerfull look from the digital world. Your pictures will come in crisp and clear while your audio will sound like your right next to the artist. The Sony Walkman Players media widget can be accessed through the brand new AOSP lockscreen as well! The Motorola OEM launcher was removed and replaced with Rarals Customized Xperia Zs Launcher to offer a huge selection of customization like the ADW Launcher and Apex Launcher! You can also put to your disposel a variety of Sony Widgets and Tools to your advantage. The Motorola Texting app was updated to support an integration with SMS-POP-UP Application. So, users can toggle Jellybeans SMS pop up feature! The Whole system has under gown a Xperia transformation to look like a Xperia device, so buttons and panels may look abit different compared to the stock firmware. A MIUI AOSP hybrid theme was used for the Main Icons. The Android Framework was heavily modified to allow a smoother experience, less memory consumption, modifed zRam settings, and internal power options. The System UI was also heavily modified to allow an advance experience. The statusbar features a smoother experience, Power Widgets, Center Clock, Data Monitor, Digital Clock and Date widgets and a cleaner look.﻿ The Android 4.3 Camera and Gallery was integrated into Android 4.1.2 to give users a fresh feel for their camera experience. A nice selection of new live wallpapers. and most of all, an Integration of the Bionx Dashboard.
+
+﻿Support
+______________________
+If you have any confusion on any of the features or straight forward question on installation or basic use, feel free to get ahold of me on the ﻿Blogging websites like google plus, twitter, and facebook! or immediate responce from an email to my gmail.

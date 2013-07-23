@@ -1,0 +1,218 @@
+Copyright (C) 2013 BOSP Bionx Open Source Project
+-The Catalyst Has Begun-
+
+Application built by Ryan Gocal
+Bionx Dashboard: Bionx-Res
+
+Version 3.3.0
+*Added Kexec Menu For Future Purpose
+*Updated Information Center
+*Moved Splash Screen Toggle To Quick Settings
+*Replaced Preference Screen With Headers
+*New SplashScreen
+*Fixed Wallpaper Picker Manifest
+*Updated Dashboard
+*Updated Reflections
+*Integrated AppIrater Code
+
+Version 3.3
+*Fixed Preference-Headers in Catalyst Tab
+*Fixed Firmware Changelog Viewer
+*Webview Bionx Headlines (See whats going on without leaving the Dashboard)
+*FnV Sourced Wallpaper Picker (Load Wallpapers from my Github!, Testing...)
+*Added Hotboot in Power Menu
+*-Catalyst- New AOKP Liberty/Init.d Configurations By JRummy16, Ported By Biotic
+
+Version 3.2
+*Rewrote Power Menu
+*Added Bootloader Option In Power Menu
+*Rewrote Catalyst Changelog Viewer (Experimental)
+*Updated Manifest Activities
+*Added SU Shell in File Manager (Takes time to startup)
+*Added RW Mount in File Manager (Experimental)
+*Fixed zRAM Configurations (Removed Tab, moved to tools)
+*Updated Android OS Reflection Classes
+
+Version 3.1 Developers Preview
+*Rewrote Application (Fixed multitude of errors and patches)
+*Bionx Dashboard Now Supports ActionBar Intents "Much cleaner and less buttons"
+*Updated Main Dash Layout
+*Updated File Manager
+*Updated Application Backup
+*Updated Task Killer
+*Tweaked Build.prop Editor "Users wont notice difference..."
+*Tweaked CPU Controller Code
+*Updated Icons
+*Updated Reflection Classes
+*Removed Paranoid Android Source/Rewrote Wallpaper Picker "My own source"
+*Rewrote VMM for Bionx (zRAM Settings) "Currently degubbing...report any crashes..."
+*Voltage Controls Rewritten(Now supports CPU (0/1)/UV_mV_table) "Detects if system is capadible"
+*Swapped Accessories With Catalyst Section "Currently rewriting, dedicated to rom users"
+*Bionx Catalyst Changelog Moved "Now located in Catalyst Rom, Application reads from /system/ect"
+*Updated About Section
+*Added Power Menu (Reboot, Reboot Recovery, Shutdown)
+*Added Rating Lib (Should of rated when I asked you to =D)
+*More Features Coming Soon! 
+*Sections Currently Under Development...(VMM, Catalyst, CPU, Bionx Menu "More options")
+
+Version 3.0
+*Revamped Dashboard Tabbed UI
+*Updated Layouts
+*Updated Sony Nx Style
+*Patched Numerous bugs/glitches
+*Added Get Started Activity (For New Users)
+*Moved Activities Around For A Simpler UI
+*Cleaned Up Application Code & Res Folder
+*New Wallpapers
+*Rewrote voltage activity (Moved to CPU Overclock activity, determined by kernel if accessible.)
+*Integrated Required Libs for Compilation
+*Updated Manifest
+*Updated Permissions
+*Updated About Activity
+
+Version 2.9
+*Stabilized Bionx Framework
+
+Version 2.8.0
+*Added Android ID Tool (experimental)
+*Ported MIUI Battery Optimizer By: Clark Scheff
+*Updated Nx File Manager (Fixed Random Crashes?)
+*Optimized Application Memory Usage (Uses Less Device Memory)
+*Updated Process Killer (Ignore Important Process and Battery Optimal)
+*Added Advance zRAM Custom Configurations In zRAM Cntrls
+*Bionx Service Starts SU Permissions On Start-Up
+*Moved CPU Stats From OC Menu To Stand-Alone Tab
+*Cleaned Up GUI
+*Cleaned Up XML Code
+*Updated CPU Overclock UI
+*Updated ActionBar Sherlock
+*Updated Manifest Style
+*Injected New Semc Style Background
+*Added New Accessory Activities
+*Added Android System Properties Reflection Class (Smooth Tweaks Integration)
+*Added Android Utils Class (More Feature Support)
+*Rewrote Tabs Changelog Activity (Simpler)
+*Added Open Source Tab
+*Added JBX Developer Links
+*Added Nx Volt Activity 
+-Only Available for Omap4 Kexec Kernels as of now
+*Added Quick Settings Page
+*Patched About Activity
+*Bionx Preferences UI Revamped
+*Updated Android Manifest 
+
+Version 2.7.6
+*Fixed zRAM SU Bug (Alpha Stage)
+*Patched zRAM Java commands
+*Removed Extras From File Manager
+*Added Downloaded Applications Backup Feature
+
+Version 2.7.5
+*Added zRAM configuration (Testing via omap4 Kexec/Custom Kernels)
+*Integrated Root Tools Jar (Rooted User Commands Available)
+*Patched File Manager UI
+*Patched Task/Process Manager UI
+
+Version 2.7
+* Nx File Manager based on Open Files Source Code
+* Root Viewer
+* Application Process Viewer
+* Application Backup
+* Mics Bug Fixes
+* Updated Android Manifest
+* Upated Bionx System Tools
+
+Version 2.6
+* Fixed XML Repeating Bug In Preferences
+* Patched Up Preferences Java
+* Added Accessories Page For Referenced Apps
+* Removed Huawei Security (To Many FCs)
+* Cleaned Up Bionx Settings
+* Removed Spare Parts
+* Integrated Modded Spare Parts Memory Tweaks
+* Nx Tasker Added (Testing)
+* Updated Bionx Information Page
+* Cleaned Up Android 4.0+ Manifest
+* SU Permissions Added In Manifest
+* Semc Based UI Backgrounds
+* Patched Up Wallpaper Chooser Code
+
+Version 2.5
+* Main XML Now Reads Off Of Build.prop To ID Device
+* Patched Main Java Interface
+* UI Changes
+* Memory Monitor To Dashboard
+* Fixed Memory Crash Bug?
+* Memory Intent Patched
+* Monitor Internal/External Memory (SDExt Not Currently Supported)
+* Patched Up Build.prop Editor
+* Build.Prop Holo Dark Icons Added
+
+Version 2.4
+* Added OTA Updater Support
+* Splash Screen Updated
+* Integrated CPU Listener
+* Fixed Wallpaper Picker Layout
+* Fixed CPU Controller Stats Viewer
+
+Version 2.3
+* Integrated No-Frills CPU Controller
+* Modified Dream CPU Code
+* Installed Android Debugger Code
+* System Monitor 
+* Cleaned Up Libs
+* Updated Support Lib
+* Updated Android Framework Lib
+
+Version 2.2
+* New Wallpaper Picker
+* New Wallpaper Selection
+* Updated UI Slightly
+* Updated Manifest
+* Removed Central Processing Unit
+
+Version 2.1
+* Updated Changelog Viewer
+* Added Bionx User Links
+* Cleaned Up Java
+* Fixed XML errors
+* Cleaned Up Manifest
+
+Version 2.0
+Bionx Nx Catalyst release
+* Updated Manifest
+* Updated Activities
+* Android 4.1+ Bug Fixes
+* Updated Icons
+* Updated Theme
+-Splash Screen-
+* New Splashscreen
+-Dashboard-
+* New UI
+* Home Brew Actionbar with Menu buttons
+* Device Information added
+* Rom Information added
+-Rom Tools-
+* Revamped UI
+* Xperia Themed Icons
+* Pager UI based Changelog Viewer
+* Build.prop editor
+* Wallpaper Chooser
+* Bug Fixes
+* Removed 3rd party applications to run toolkit and integrated them
+* Bionx application is no more! (faded out Eclair/Froyo UI)
+
+Version 1.0
+Initial Release with Bionx Nx 2.0.5
+*Splash Screen
+* New Dashboard like GUI
+* Menu options (Rom Tools)
+* Calendar Widget
+* Rom information
+* Device Information
+* Bionx Based Icons
+* Rom tools
+* Rom based referenced acivities built for Bionx Nx
+* Replace Bionx Application to fix Activity Bugs
+* Bionx based icons
+* Android 4.0 Themed

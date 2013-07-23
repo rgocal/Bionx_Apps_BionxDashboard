@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+	<item
+		android:id="@+id/new_directory"
+		android:icon="@drawable/newfolder" 
+		android:showAsAction="always" 
+		android:title="New Directory"/>
+	<item
+		android:id="@+id/search"
+		android:icon="@drawable/search" 
+		android:showAsAction="always" 
+		android:title="Search"/>
+	<item
+		android:id="@+id/settings"
+		android:icon="@drawable/toolbox" 
+		android:showAsAction="always" 
+		android:title="Settings"/>
+	<item
+		android:id="@+id/quit"
+		android:icon="@drawable/logout" 
+		android:showAsAction="always" 
+		android:title="Quit"/>
+</menu>
